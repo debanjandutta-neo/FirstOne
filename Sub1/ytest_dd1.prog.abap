@@ -12,4 +12,7 @@ START-OF-SELECTION.
     INTO TABLE @DATA(lt_mara).
   IF sy-subrc = 0.
     cl_demo_output=>display( lt_mara ).
+  ELSE.
+    MESSAGE 'No data found' TYPE 'I'.
+    LEAVE LIST-PROCESSING.
   ENDIF.
