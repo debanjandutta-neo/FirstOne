@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+ <asx:values>
+  <DATA>
+   <NAME>DD_OL1</NAME>
+   <MASTER_LANGUAGE>E</MASTER_LANGUAGE>
+   <STARTING_FOLDER>/Sub1/</STARTING_FOLDER>
+   <FOLDER_LOGIC>PREFIX</FOLDER_LOGIC>
+   <IGNORE>
+    <item>/Sub1/ytest_dd1.prog.abap</item>
+    <item>/Sub1/ytest_dd1.prog.xml</item>
+   </IGNORE>
+  </DATA>
+ </asx:values>
+</asx:abap>
